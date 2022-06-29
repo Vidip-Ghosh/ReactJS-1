@@ -1,0 +1,88 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+}
+.cpy{
+  height: 30px;
+}
+
+.passwd{
+  height: 30px;
+}
+
+.card{
+  background-color: rgb(255, 204, 0);
+  width: fit-content;
+  align-content: center;
+} */
+body{
+  background-color: #eff2f5;
+}
+.heading{
+  font-size: 35px;
+  color: #1a77f2;
+}
+
+.para p{
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  position: relative;
+  bottom: 30px;
+}
+
+.Login{
+  position: absolute;
+  left: 400px;
+  top: 160px;
+}
+
+.details{
+  box-sizing: border-box;
+  background-color: white;
+  position: absolute;
+  left: 600px;
+  bottom: 5px;
+}
+
+.details input{
+  height: 50px;
+  width: 330px;
+  font-size: 20px;
+  border-radius:7px;
+  border: 0.5px solid;
+}
+
+.details button{
+  height: 50px;
+  width: 364px;
+  background-color: #1877F2;
+  color: white;
+  font-size: 20px;
+  border-radius:7px;
+  border: 0.5px solid;
+  cursor: pointer;
+  
+}
+.details button:hover{
+  opacity: 0.9;
+}
+
+.forPass{
+  color: #1877F2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.forPass:hover{
+  text-decoration: underline;
+}
+
+.createAcc button{
+  background-color: #42B72A;
+  height: 50px;
+  width: 254px;
+}
+.createAcc{
+  text-align: center;
+}
